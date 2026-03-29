@@ -6,15 +6,15 @@
     
     <!-- Device trees -->
     <project path="device/xiaomi/jasmine_sprout" name="android_device_xiaomi_jasmine_sprout" remote="xlightningxstar" revision="lineage-23.2" />
-    <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="xlightningxstar" revision="lineage-20" />
+    <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="xlightningxstar" revision="16.2-dynamic" />
 
     <!-- Kernel tree -->
     <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="xlightningxstar" revision="main-cip-dynamic"/>
 
     <!-- Vendor trees -->
     <project path="vendor/xiaomi/jasmine_sprout" name="proprietary_vendor_xiaomi_jasmine_sprout" remote="xlightningxstar" revision="lineage-23.2" />
-    <project path="vendor/xiaomi/sdm660-common" name="proprietary_vendor_xiaomi_sdm660-common" remote="xlightningxstar" revision="lineage-23.2" />
+    <project path="vendor/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="xlightningxstar" revision="16.2" />
 
     <!-- Hardware tree -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineageos" revision="lineage-20" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineageos" revision="lineage-23.2" />
 </manifest>
